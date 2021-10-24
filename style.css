@@ -138,6 +138,7 @@ header{
     border-radius: 25px;
     display: inline-block;
     text-decoration: none;
+    cursor: pointer;
 }
 .slide-summer{
     background: url("assets/summer.png") no-repeat center / cover;
@@ -207,4 +208,252 @@ header{
 .min-efforts{
     background: url('assets/min-efforts.png') no-repeat center / cover;
     z-index: -2;
+}
+.delivery-week{
+    padding: 100px 0;
+}
+.delivery-week-title{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+    margin-bottom: 47px;
+    margin-top: 0;
+}
+.delivery-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -30px;
+}
+.delivery-card{
+    margin: 15px;
+    position: relative;
+    width: 275px;
+    height: 182px;
+    border-radius: 18px;
+    overflow: hidden;
+}
+.delivery-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.delivery-tag{
+    position: absolute;
+    left: 10px;
+    top: 16px;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-size: 20px;
+    line-height: 23px;
+}
+.tag-health{
+    background-color: #D0FD89;
+    color: #49494F;
+}
+.tag-veg{
+    background-color: #AEBC41;
+    color: white;
+}
+.tag-meat{
+    background-color: #B86B78;
+    color: white;
+}
+.tag-poultry{
+    background-color: #D68334;
+    color: white;
+}
+.tag-fish{
+    background-color: #CD6255;
+    color: white;
+}
+.tag-kid, .tag-parent{
+    background-color: #FFFDBF;
+    color: #49494F;
+}
+.tag-fest{
+    background-color: #FEF7FE;
+    color: #49494F;
+}
+.grey{
+    background-color: #F6F6F6;
+}
+.category-title{
+    padding: 40px 0 60px 0;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+}
+.tabs{
+    display: flex;
+    margin: 0 0 62px 0;
+    padding: 0;
+    list-style: none;
+}
+.tabs-link{
+    color: #49494F;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    margin-right: 58px;
+    
+}
+.active{
+    color: #F37321;
+}
+.tabs-card{
+    max-width: 270px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    margin-right: 18px;
+}
+.tabs-image{
+    max-width: 100%;
+}
+.tabs-content{
+    margin-right: -37px;
+    padding: 23px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.tabs-title{
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 13px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+.tabs-description{
+    font-size: 14px;
+    line-height: 23px;
+    color: #B9B9BE;
+    padding-right: 20px;
+}
+.tabs-price{
+    color: #4B4B51;
+    font-size: 23px;
+    line-height: 23px;
+    display: block;
+    margin-bottom: 5px;
+}
+.tabs-weight{
+    display: block;  
+    color: #AAAAB1;
+    font-size: 17px;
+    line-height: 20px;
+}
+.tabs-info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.button-outline{
+    background-color: transparent;
+    border: 2px solid #F37321;
+    border-radius: 33px;
+    color: #F37321;
+    box-sizing: border-box;
+    padding: 15px 25px;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 20px;
+}
+.button-center{
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    width: 315px;
+}
+.advantages{
+    background-color: #f2f2f2;
+}
+.advantages-content{
+    padding-bottom: 202px;
+    display: flex;
+    flex-wrap:wrap;
+    margin-right: -37px;
+  
+}
+.advantages-title{
+    margin-top: 100px;
+    margin-bottom: 52px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+}
+.advantages-card{
+    width: 270px;
+    border: 1px solid #E5E5E5;
+    border-radius: 18px;
+    padding: 30px 23px 25px 23px;
+    margin-right: 18px;
+    background-color: #fff;
+}
+.advantages-card-image{
+    display: block;
+    margin-left: 80px;
+}
+.advantages-card-info{
+    padding-top: 34px;
+    text-align: center;
+}
+.card-info-title{
+    margin-left: 35px;
+    max-width: 158px;
+    font-size: 16px;
+    line-height: 23px;
+    padding-left: px;
+    justify-content: center;
+    text-align: center;
+}
+.card-info-title2{
+    max-width: 188px;
+    margin-left: 20px;
+}
+.card-info-description{
+    max-width: 223px;
+    color: #49494F;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 0;
+}
+.footer{
+    padding: 40px 0;
+    background-color: #F6F6F6;
+}
+.footer-wrapper{
+    display: flex;
+    align-items: center;
+}
+.footer-image{
+    margin-right: 50px;
+}
+.footer-link{
+    color: black;
+    font-size: 16px;
+    line-height: 23px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.social-links{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+.social-link{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.telegram{
+    background: url("assets/img2/telegram1.png") no-repeat center / cover;
+}
+.vk{
+    background: url("assets/img2/vk2.png") no-repeat center / cover;
+}
+.insta{
+    background: url("assets/img2/instagram3.png") no-repeat center / cover;
 }
