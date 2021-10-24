@@ -83,3 +83,128 @@ header{
 .shopping-cart-logo{
     text-decoration: none;
 }
+.slide{
+    overflow: hidden;
+    border-radius: 20px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    position: relative;
+}
+.slide::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%);
+}
+.slide-text-light{
+    background-color: grey;
+    color: white;
+}
+.slide-content{
+    width: 400px;
+    z-index: 2;
+}
+.slide-title{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 51px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.slide-descrription{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+.button-default{
+    background-color: #fff;
+    color: #5F5F61;
+}
+.button-primary{
+    background-color: #F47322;
+    color:white;
+}
+.button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 12px 53px;
+    border-radius: 25px;
+    display: inline-block;
+    text-decoration: none;
+}
+.slide-summer{
+    background: url("assets/summer.png") no-repeat center / cover;
+}
+.promo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 54px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.card, .card2{
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    padding: 32px;
+    max-width: 570px;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card::before, .card2::before{
+    z-index: -1;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+.card-text-light{
+    color:white;
+}
+.card-header-title{
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+}
+.card-header-description{
+    margin-top: 21px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    max-width: 200px;
+}
+.card-price{
+    display: block;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+}
+.card-delivery{
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+}
+.sweet-busket{
+    background: url('assets/sweet-busket.png') no-repeat center / cover;
+    z-index: -2;
+}
+.min-efforts{
+    background: url('assets/min-efforts.png') no-repeat center / cover;
+    z-index: -2;
+}
