@@ -106,7 +106,7 @@ header{
     color: white;
 }
 .slide-content{
-    width: 400px;
+    width: 500px;
     z-index: 2;
 }
 .slide-title{
@@ -142,6 +142,30 @@ header{
 }
 .slide-summer{
     background: url("assets/summer.png") no-repeat center / cover;
+}
+.swiper{
+    position: relative;
+}
+.slider-buttons{
+    position: absolute;
+    right: 46px;
+    bottom: 39px;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    cursor: pointer;
+}
+.slider-button-prev{
+    background: url("assets/arrow-prev.png") no-repeat center / cover;
+    width: 40px;
+    height: 40px;
+}
+.slider-button-next{
+    background: url("assets/arrow-next.png") no-repeat center / cover;
+    width: 40px;
+    height: 40px;
 }
 .promo{
     display: grid;
@@ -311,7 +335,7 @@ header{
     max-width: 100%;
 }
 .tabs-content{
-    margin-right: -37px;
+    margin-right: -18px;
     padding: 23px;
     display: flex;
     flex-wrap: wrap;
@@ -373,7 +397,7 @@ header{
     padding-bottom: 202px;
     display: flex;
     flex-wrap:wrap;
-    margin-right: -37px;
+    margin-right: -18px;
   
 }
 .advantages-title{
@@ -384,7 +408,7 @@ header{
     line-height: 23px;
 }
 .advantages-card{
-    width: 270px;
+    max-width: 270px;
     border: 1px solid #E5E5E5;
     border-radius: 18px;
     padding: 30px 23px 25px 23px;
@@ -456,4 +480,63 @@ header{
 }
 .insta{
     background: url("assets/img2/instagram3.png") no-repeat center / cover;
+}
+@media (max-width: 1260px){
+    .container{
+        max-width: 960px;
+    }
+    .search_form{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .tabs-content{
+        gap: 20px;
+    }
+    .tabs-card{
+        flex: 50%;
+        max-width: calc(50% - 30px);
+    }
+}
+@media (max-width: 992px){
+    .container{
+        max-width: 760px;
+    }
+    .slide{
+        padding: 70px;
+    }
+    .delivery-card{
+        width: calc(50% - 30px);
+    }
+    .footer-logo{
+        margin-right: 40px;
+    }
+}
+@media (max-width: 768px){
+    .container{
+        max-width: 560px;
+    }
+    .header{
+        flex-wrap:wrap;
+    }
+    .search_form{
+        order: 5;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .promo{
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 576px){
+    .container{
+        max-width: 90%;
+    }
+    .tabs-card{
+        max-width: 100%;
+    }
+    .advantages-card{
+        max-width: 100%;
+    }
 }
