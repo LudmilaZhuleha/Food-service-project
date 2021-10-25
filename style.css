@@ -143,6 +143,12 @@ header{
 .slide-summer{
     background: url("assets/summer.png") no-repeat center / cover;
 }
+.slide-autumn{
+    background: url("assets/slide-autumn.png") no-repeat center / cover;
+}
+.slide-vitamin{
+    background: url("assets/slide-vitamin.png") no-repeat center / cover;
+}
 .swiper{
     position: relative;
 }
